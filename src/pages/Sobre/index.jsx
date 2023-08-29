@@ -31,11 +31,12 @@ function Sobre() {
 
               <p>Atuo na área de Tecnologia desde 2022.
                 <br/> Atuando principalmente como <strong>Suporte Técnico N1 e N2.</strong><br/>
-                Desenvolvendo projetos pessoais dentro da área de <strong>desenvolvimento.</strong>
+                Desenvolvendo projetos pessoais dentro da área de<strong>desenvolvimento.</strong>
               </p>
-              <p>Desde então, estou envolvido com entusiasmo no desenvolvimento e em experiências de suporte técnico, formando um alicerce sólido para minha trajetória. </p>
-              
-
+              <p>Desde então, estou envolvido com entusiasmo no desenvolvimento e em experiências de suporte técnico, <br/>
+               formando um alicerce sólido para minha trajetória. </p>
+               <p> Meu objetivo é atuar como <strong> Desenvolvedor BackEnd.</strong></p>
+      
             </div>
           </div>
           <div className={styles.techs}>
@@ -61,7 +62,6 @@ function Sobre() {
           </div>
           </div>
         </section>
-      
       </>
     )
 }
