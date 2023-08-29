@@ -1,8 +1,7 @@
-
-<<<<<<< HEAD
 import { Link } from 'react-router-dom'
 import styles from './Header.module.css'
 import { useState } from 'react'
+
 
 
 function Header() {
@@ -31,22 +30,8 @@ function Header() {
         <span className={styles.linha}></span>
         <span className={styles.linha}></span>
       </div>
-=======
-import styles from './Header.module.css'
-
-
-function Header() {
-    return (
-        <header className={styles.header}>
-            <span> Gabriel da Silva </span>
-            <nav>
-                <a href=""> Home </a>
-                <a href=""> Sobre </a>
-                <a href=""> Projetos </a>
-                <a href=""> Contatos </a>
-            </nav>
->>>>>>> ecaa45fb1f08e40af10df382cf5e01dba916de95
-        </header>
+      
+      </header>
     )
 }
 
